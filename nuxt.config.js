@@ -1,4 +1,4 @@
-const pkg = require('./package')
+const app = require('./configs/app')
 
 module.exports = {
   mode: 'universal',
@@ -6,16 +6,33 @@ module.exports = {
   /*
   ** Headers of the page
   */
-  head: {
-    title: pkg.name,
-    meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: pkg.description }
-    ],
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+  meta: {
+    lang: app.lang,
+    name: app.name,
+    author: app.author,
+    description: app.description,
+    theme_color: app.theme_color,
+    mobileAppIOS: true,
+    viewport: 'width=device-width,initial-scale=1,user-scalable=no',
+    ogType: 'website',
+    ogSiteName: app.name,
+    ogTitle: app.name,
+    ogDescription: app.description,
+    ogHost: app.host,
+    ogImage: {
+      path: 'card.jpg'
+    },
+    ogUrl: app.url,
+    twitterCard: 'summary_large_image',
+    nativeUI: true,
+  },
+  manifest: {
+    name: app.name,
+    short_name: app.name,
+    start_url: '/',
+    display: 'standalone',
+    background_color: '#fff',
+    description: app.description
   },
 
   /*
@@ -39,6 +56,7 @@ module.exports = {
   ** Nuxt.js modules
   */
   modules: [
+    '@nuxtjs/pwa',
   ],
 
   /*
@@ -49,7 +67,7 @@ module.exports = {
     ** You can extend webpack config here
     */
     extend(config, ctx) {
-      
+
     }
   }
 }
