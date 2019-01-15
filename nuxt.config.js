@@ -1,7 +1,7 @@
 const app = require('./configs/app')
 
 module.exports = {
-  mode: 'universal',
+  mode: 'spa',
 
   /*
   ** Headers of the page
