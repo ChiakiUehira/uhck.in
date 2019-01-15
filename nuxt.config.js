@@ -28,7 +28,7 @@ module.exports = {
   },
   manifest: {
     name: app.name,
-    short_name: app.name,
+    short_name: 'uhck.in',
     start_url: '/',
     display: 'standalone',
     background_color: '#fff',
