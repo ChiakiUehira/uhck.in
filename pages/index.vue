@@ -20,7 +20,7 @@
             <a class="c-list_item_link" target="_blank" href="https://github.com/in-the-box">GitHub</a>
           </div>
           <div class="c-list_item">
-            <a class="c-list_item_link" target="_blank" href="mailto:me@uhck.in">Email</a>
+            <a class="c-list_item_link" href="mailto:me@uhck.in">Email</a>
           </div>
         </div>
       </div>

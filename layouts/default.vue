@@ -15,6 +15,7 @@
       </svg>
     </button>
     <nuxt/>
+    <div class="p-copyright">© uhck.in</div>
   </div>
 </template>
 
@@ -103,5 +104,11 @@ html {
 }
 .p-nightmode_body {
   fill: var(--text-primary);
+}
+.p-copyright {
+  position: fixed;
+  bottom: 18px;
+  right: 14px;
+  color: var(--text-secondary);
 }
 </style>
