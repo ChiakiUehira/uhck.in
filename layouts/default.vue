@@ -100,6 +100,13 @@ html {
   --border-primary: #eee;
 }
 
+.p-root {
+  height: 100vh;
+  width: 100%;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
 .p-root.is-black {
   --text-primary: #fff;
   --text-secondary: #ccc;
