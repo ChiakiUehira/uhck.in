@@ -6,7 +6,7 @@
         <div class="p-profile_header_roles">Designer / Programmer</div>
       </div>
       <div class="p-profile_body">
-        フォントサイズは14pxです。フォントサイズは14pxです。フォントサイズは14pxです。フォントサイズは14pxです。フォントサイズは14pxです。フォントサイズは14pxです。フォントサイズは14pxです。フォントサイズは14pxです。フォントサイズは14pxです。フォントサイズは14pxです。フォントサイズは14pxです。フォントサイズは14pxです。フォントサイズは14pxです。フォントサイズは14pxです。フォントサイズは14pxです。フォントサイズは14pxです。フォントサイズは14pxです。フォントサイズは14pxです。
+        1996年生まれ。<a target="_blank" href="https://pixelgram.jp">合同会社ピクセルグラム</a>の代表。大阪を中心にウェブのデザイナー・プログラマーとして活動しています。解析・改善を含めた制作を得意としています。<a href="mailto:me@uhck.in">仕事のご依頼はお気軽にどうぞ👋</a>
       </div>
       <div class="p-profile_footer">
         <div class="c-list">
@@ -39,13 +39,13 @@ export default {
 
 <style scoped>
 .p-profile_header_name {
-  font-size: 24px;
+  font-size: 1.714285714rem;
   font-weight: bold;
   margin-bottom: 4px;
   color: var(--text-primary);
 }
 .p-profile_header_roles {
-  font-size: 18px;
+  font-size: 1.285714286rem;
   margin-bottom: 24px;
   color: var(--text-secondary);
 }
@@ -57,9 +57,13 @@ export default {
   background-color: var(--border-primary);
 }
 .p-profile_body {
-  font-size: 14px;
+  line-height: 2;
+  font-size: 1rem;
   padding-top: 30px;
   color: var(--text-secondary);
+}
+.p-profile_body a {
+  color: var(--text-primary);
 }
 .p-profile_body:after {
   content: '';
@@ -76,8 +80,10 @@ export default {
 }
 .c-list_item {
   display: inline-block;
+  line-height: 2;
 }
 .c-list_item_link {
+  font-size: 1rem;
   color: var(--text-primary);
 }
 .c-list_item + .c-list_item:before {
