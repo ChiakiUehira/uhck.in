@@ -89,6 +89,7 @@ html {
   position: fixed;
   top: 18px;
   left: 14px;
+  z-index: 2;
 }
 .c-header_logo,
 .c-header_logo_link {
