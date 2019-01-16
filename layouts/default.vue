@@ -16,6 +16,7 @@
     </button>
     <nuxt/>
     <div class="p-copyright">© uhck.in</div>
+    <div class="p-bg"></div>
   </div>
 </template>
 
@@ -81,8 +82,10 @@ html {
   --border-primary: #222;
 }
 
-.p-root {
+.p-bg {
   background-color: var(--background-primary);
+  width: 100%;
+  height: 100vh;
 }
 
 .c-header_logo {
