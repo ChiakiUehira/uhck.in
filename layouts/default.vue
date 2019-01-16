@@ -108,6 +108,7 @@ html {
   position: fixed;
   top: 14px;
   right: 14px;
+  z-index: 2;
   cursor: pointer;
 }
 .p-nightmode_body {
