@@ -1,5 +1,5 @@
 <template>
-  <div :class="['p-root', isNightMode ? 'is-black' : '']">
+  <div :style="{height: `${wh}px`}" :class="['p-root', isNightMode ? 'is-black' : '']">
     <div class="c-header">
       <div class="c-header_logo">
         <nuxt-link class="c-header_logo_link" to="/">uhck.in</nuxt-link>
@@ -23,15 +23,40 @@
 <script>
 import { mapGetters, mapActions } from 'vuex'
 export default {
+  data () {
+    return {
+      wh: 0,
+      ww: 0,
+      isResize: false
+    }
+  },
   computed: {
     ...mapGetters([
       'isNightMode'
     ])
   },
   methods: {
+    onLoad () {
+      this.wh = window.innerHeight
+      this.ww = window.innerWidth
+    },
+    onResize () {
+      if (!this.isResize && this.ww !== window.innerWidth) {
+        this.isResize = true
+        setTimeout(() => {
+          this.wh = window.innerHeight
+          this.ww = window.innerWidth
+          this.isResize = false
+        }, 100);
+      }
+    },
     ...mapActions([
       'setIsNightMode'
     ])
+  },
+  created() {
+    window.addEventListener('load', this.onLoad)
+    window.addEventListener('resize', this.onResize)
   },
 }
 </script>
@@ -85,7 +110,7 @@ html {
 .p-bg {
   background-color: var(--background-primary);
   width: 100%;
-  height: 100vh;
+  height: 100%;
 }
 
 .c-header_logo {
