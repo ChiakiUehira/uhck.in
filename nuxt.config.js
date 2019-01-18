@@ -63,6 +63,13 @@ module.exports = {
     }]
   ],
 
+  sitemap: {
+    path: '/sitemap.xml',
+    hostname: 'https://uhck.in',
+    cacheTime: 1000 * 60 * 15,
+    generate: true,
+  },
+
   /*
   ** Build configuration
   */
