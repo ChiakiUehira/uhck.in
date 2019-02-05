@@ -92,11 +92,6 @@
               事業アイデアや技術面のサポートが可能です。<br>
               また、インターネットでのメディア戦略を企画・提案することが可能です。
             </div>
-            <div class="p-profile_subtitle">新規事業の立ち上げ</div>
-            <div class="p-profile_text">
-              事業アイデアや技術面のサポートが可能です。<br>
-              また、インターネットでのメディア戦略を企画・提案することが可能です。
-            </div>
             <div class="p-profile_subtitle">既存事業の改善</div>
             <div class="p-profile_text">
               既存事業を分析・調査し、課題を発見します。<br>
