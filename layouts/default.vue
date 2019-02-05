@@ -74,12 +74,6 @@ html {
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 425px){
-html {
-  font-size: 12px;
-}
-}
-
 *,
 *:before,
 *:after {
