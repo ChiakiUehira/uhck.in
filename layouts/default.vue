@@ -118,6 +118,9 @@ html {
 }
 
 .p-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
   background-color: var(--background-primary);
   width: 100%;
   height: 100%;
@@ -146,7 +149,7 @@ html {
   position: fixed;
   top: 14px;
   right: 14px;
-  z-index: 2;
+  z-index: 200;
   cursor: pointer;
 }
 .p-nightmode_body {

@@ -8,10 +8,8 @@
 
 <style scoped>
 .c-container {
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100%;
+  position: relative;
+  z-index: 100;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -20,7 +18,7 @@
 .c-container_body {
   max-width: 740px;
   width: 100%;
-  padding: 0 20px;
+  padding: 200px 20px;
 }
 </style>
 
