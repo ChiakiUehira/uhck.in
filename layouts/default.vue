@@ -6,7 +6,7 @@
         /
       </div>
     </div>
-    <button class="p-nightmode" @click="setIsNightMode(!isNightMode)" role="button" aria-label="nightmode" tabindex="1">
+    <button class="p-nightmode" @click="setIsNightMode(!isNightMode)" role="button" aria-label="nightmode" tabindex="0">
       <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
         <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
           <polygon id="Stroke-1" stroke-opacity="0.0117647061" stroke="#000000" stroke-width="1.33333336e-11" points="0 0 23.999999 0 23.999999 23.999999 0 23.999999"></polygon>

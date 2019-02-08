@@ -1,5 +1,5 @@
 <template>
-  <div class="c-container">
+  <div class="c-container" role="main">
     <div class="c-container_body">
       <slot></slot>
     </div>
