@@ -13,7 +13,7 @@ module.exports = {
     description: app.description,
     theme_color: app.theme_color,
     mobileAppIOS: true,
-    viewport: 'width=device-width,initial-scale=1,user-scalable=no',
+    viewport: 'width=device-width,initial-scale=1',
     ogType: 'website',
     ogSiteName: app.name,
     ogTitle: app.name,

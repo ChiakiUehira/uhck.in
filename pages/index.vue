@@ -41,13 +41,13 @@
               物持ちがいいタイプだと思う。<br>
               人と話すのが好き。<br>
               （あんまり他が思い浮かばないので適当にプルリクエストをいただけると幸いです。）<br>
-              <a target="_blank" href="https://github.com/in-the-box/uhck.in">https://github.com/in-the-box/uhck.in</a>
+              <a target="_blank" rel="noopener" href="https://github.com/in-the-box/uhck.in">https://github.com/in-the-box/uhck.in</a>
             </div>
             <div class="p-profile_subtitle">リンク</div>
             <div class="p-profile_group_text">
-              Twitter (<a target="_blank" href="https://twitter.com/_uhck">https://twitter.com/_uhck</a>)<br>
-              Facebook (<a target="_blank" href="https://www.facebook.com/chiaki.uehira">https://www.facebook.com/chiaki.uehira</a>)<br>
-              GitHub (<a target="_blank" href="https://github.com/in-the-box">https://github.com/in-the-box</a>)<br>
+              Twitter (<a target="_blank" rel="noopener" href="https://twitter.com/_uhck">https://twitter.com/_uhck</a>)<br>
+              Facebook (<a target="_blank" rel="noopener" href="https://www.facebook.com/chiaki.uehira">https://www.facebook.com/chiaki.uehira</a>)<br>
+              GitHub (<a target="_blank" rel="noopener" href="https://github.com/in-the-box">https://github.com/in-the-box</a>)<br>
               Discord (Chiaki Uehira#9754)<br>
               Mail (<a href="mailto:me@uhck.in">mailto:me@uhck.in</a>)
             </div>
@@ -154,13 +154,13 @@
       <div class="p-profile_footer">
         <div class="c-list">
           <div class="c-list_item">
-            <a class="c-list_item_link" target="_blank" href="https://twitter.com/_uhck">Twitter</a>
+            <a class="c-list_item_link" target="_blank" rel="noopener" href="https://twitter.com/_uhck">Twitter</a>
           </div>
           <div class="c-list_item">
-            <a class="c-list_item_link" target="_blank" href="https://www.facebook.com/hacocooo">Facebook</a>
+            <a class="c-list_item_link" target="_blank" rel="noopener" href="https://www.facebook.com/hacocooo">Facebook</a>
           </div>
           <div class="c-list_item">
-            <a class="c-list_item_link" target="_blank" href="https://github.com/in-the-box">GitHub</a>
+            <a class="c-list_item_link" target="_blank" rel="noopener" href="https://github.com/in-the-box">GitHub</a>
           </div>
           <div class="c-list_item">
             <a class="c-list_item_link" href="mailto:me@uhck.in">Email</a>
