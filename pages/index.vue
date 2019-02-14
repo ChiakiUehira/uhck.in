@@ -157,7 +157,7 @@
             <a class="c-list_item_link" target="_blank" rel="noopener" href="https://twitter.com/_uhck">Twitter</a>
           </div>
           <div class="c-list_item">
-            <a class="c-list_item_link" target="_blank" rel="noopener" href="https://www.facebook.com/hacocooo">Facebook</a>
+            <a class="c-list_item_link" target="_blank" rel="noopener" href="https://www.facebook.com/chiaki.uehira">Facebook</a>
           </div>
           <div class="c-list_item">
             <a class="c-list_item_link" target="_blank" rel="noopener" href="https://github.com/in-the-box">GitHub</a>
